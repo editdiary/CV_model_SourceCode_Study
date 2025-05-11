@@ -12,7 +12,8 @@
 CV_model_SourceCode_Study/
 ├── README.md
 ├── study_src/          # 학습한 내용을 정리하고 실습하는 코드
-│   └── your_code.py
+│   ├── maskrcnn/       # Detectron2 기반 Mask R-CNN 학습
+│   └── yolo/           # YOLO 모델 학습
 └── external/           # 분석 대상이 되는 외부 라이브러리
     ├── yolov12/        # YOLO 구현 코드
     └── detectron2/     # Detectron2 구현 코드
@@ -31,7 +32,13 @@ CV_model_SourceCode_Study/
 
 ## 학습 내용
 - [ ] YOLO 아키텍처 분석
+  - [ ] 모델 구조 이해
+  - [ ] 학습 과정 분석
+  - [ ] 추론 과정 분석
 - [ ] Detectron2 프레임워크 구조 분석
+  - [ ] Mask R-CNN 구현 분석
+  - [ ] 모델 구성 요소 이해
+  - [ ] 학습/추론 파이프라인 분석
 - [ ] 모델 구현 패턴 학습
 - [ ] 실제 프로덕션 코드 구조 이해
 
